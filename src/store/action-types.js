@@ -1,0 +1,3 @@
+export const SET_CURRENTNAV = 'SET_CURRENTNAV'
+export const SET_VISIBLESUBNAV = 'SET_VISIBLESUBNAV'
+export const SET_INIT = 'SET_INIT'

@@ -1,0 +1,94 @@
+.strategy_common {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.2rem 0.3rem;
+    .strategy_left {
+      flex: 0 0 3.4rem;
+      width: 3.4rem;
+      height: 3.9rem;
+      position: relative;
+      border-radius: 0.1rem;
+      overflow: hidden;
+      transform: rotateZ(0);
+      img {
+        height: 100%;
+      // width: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      p {
+        width: 100%;
+        height: 0.45rem;
+        line-height: 0.45rem;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        font-size: 0.2rem;
+        text-indent: 0.1rem;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.6);
+      }
+    }
+    .strategy_right {
+      flex: 0 0 3.4rem;
+      width: 3.4rem;
+      .strategy_item {
+        width: 100%;
+        height: 1.9rem;
+        margin-bottom: 0.1rem;
+        position: relative;
+        border-radius: 0.1rem;
+        overflow: hidden;
+        transform: rotateZ(0);
+        &:last-child {
+          margin: 0;
+        }
+        img {
+          // width: 150%;
+          width: 100%;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+        }
+        p {
+          width: 100%;
+          height: 0.45rem;
+          line-height: 0.45rem;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          font-size: 0.2rem;
+          text-indent: 0.1rem;
+          color: #fff;
+          background: rgba(0, 0, 0, 0.6);
+        }
+      }
+      .strategy_more1{
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          width: 100%;
+          height: 3.9rem;
+          border-radius: 0.1rem;
+          background: #ffede3;
+          font-size: 0.28rem;
+          color: #ff5062;
+      }
+      .strategy_more2{
+          display: flex;
+          align-items: center;
+          text-align: center;
+          justify-content: center;
+          width: 100%;
+          height: 1.9rem;
+          border-radius: 0.1rem;
+          background: #ffede3;
+          font-size: 0.28rem;
+          color: #ff5062;
+      }
+    }
+  }

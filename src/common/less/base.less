@@ -1,0 +1,37 @@
+﻿@import "./mixin.less";
+@import "./jquery.mCustomScrollbar.min.less";
+
+/*base*/
+body,html,div,p,table,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6{margin:0px;padding:0px;}
+ul,ol,li,dl,dt,dd{list-style:none;}
+img,a{border:none;}
+em,i{font-style:normal;}
+a{outline:none;text-decoration:none;-webkit-tap-highlight-color:rgba(255,0,0,0);}
+html{font-size:50px;}
+html,body{font-family:"微软雅黑","Arial","Helvetica";font-weight:normal;text-shadow:none;background:#e6e6e6;width:100%;/* height:100%; */position:relative;margin:0px;padding:0px;overflow-x: hidden;}
+.clear{width:0px;height:0px;font-size:0px;line-height:0px;clear:both;overflow:hidden;}
+.clearfix:after{content: ""; display: block; width: 0; height: 0; clear: both;}
+
+/*页面框架*/
+#app,.container-hook{min-height: 100%;/* -webkit-overflow-scrolling: touch; */}
+.container{width:100%;/* min-height: 100%; *//* overflow: auto; *//* -webkit-overflow-scrolling: touch; */position:relative;box-sizing: border-box;}
+.container.auto{height: auto !important;overflow:visible !important;}
+
+.mCSB_container{
+    margin: 0 !important;
+}
+.mCSB_scrollTools.mCSB_scrollTools_horizontal{
+    height: 0;
+}
+.mCSB_scrollTools{
+    width: 0;
+}
+
+
+.fixed{
+    position: fixed;
+}
+.discount_details img {
+    max-width: 100% !important;
+    position: static !important;
+}
